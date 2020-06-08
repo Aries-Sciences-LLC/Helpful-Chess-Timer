@@ -1,0 +1,18 @@
+PODS:
+  - ChromaColorPicker (1.7)
+  - GhostTypewriter (1.0.0)
+  - SAConfettiView (0.1.8)
+
+DEPENDENCIES:
+  - ChromaColorPicker
+  - GhostTypewriter
+  - SAConfettiView
+
+SPEC CHECKSUMS:
+  ChromaColorPicker: 33efa67b17cca51dd253689d18b83ac7e05642c2
+  GhostTypewriter: 70c6f827ada4716bda0550046b01bf783331ee00
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+
+PODFILE CHECKSUM: 69274bdc475b238191931a3c9bd73a6395beb324
+
+COCOAPODS: 1.4.0
