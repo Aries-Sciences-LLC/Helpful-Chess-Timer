@@ -1,5 +1,5 @@
 # Chess-Timer
-![App Icon](https://github.com/Aries-Sciences-LLC/Chess-Timer/blob/master/iOS%20icons%20(App%20Icon)/App%20Icon.png)
+![App Icon](https://github.com/Aries-Sciences-LLC/Chess-Timer/blob/master/iOS%20icons%20(App%20Icon)/RoundedIcon.png)
 
 This is an app that is the timer for the chess. It has an animated UI and very easy to use while being very customizable.
 
