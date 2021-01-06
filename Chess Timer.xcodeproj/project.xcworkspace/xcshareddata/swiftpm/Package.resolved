@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ScalingCarousel",
+        "repositoryURL": "https://github.com/superpeteblaze/ScalingCarousel.git",
+        "state": {
+          "branch": null,
+          "revision": "f2bfde4db386243fd4e0e4687fcfff530c239c20",
+          "version": "3.2.0"
+        }
+      },
+      {
+        "package": "ScreenCorners",
+        "repositoryURL": "https://github.com/kylebshr/ScreenCorners",
+        "state": {
+          "branch": null,
+          "revision": "1b71897c8d9091cad34bf10a47e3810c0c10e1e8",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "UIColor_Hex_Swift",
+        "repositoryURL": "https://github.com/yeahdongcn/UIColor-Hex-Swift",
+        "state": {
+          "branch": null,
+          "revision": "7043811d77df477bf0df3e3bc4269cbd44b3f1a4",
+          "version": "5.1.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

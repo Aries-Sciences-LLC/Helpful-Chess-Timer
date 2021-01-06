@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Omolon",
+        "main": {
+            "background": {
+                "hex": "#091E3A",
+            },
+            "title": {
+                "hex": "#FFFFFF",
+            },
+            "subtitle": {
+                "hex": "#FFFFFF",
+            },
+            "tint": {
+                "hex": "#FFFFFF",
+            },
+            "border": {
+                "hex": "#FFFFFF",
+            },
+        },
+        "secondary": {
+            "background": {
+                "hex": "#2F80ED",
+            },
+            "title": {
+                "hex": "#FFFFFF",
+            },
+            "subtitle": {
+                "hex": "#FFFFFF",
+            },
+            "tint": {
+                "hex": "#FFFFFF",
+            },
+            "border": {
+                "hex": "#FFFFFF",
+            },
+        },
+        "buttons": {
+            "background": {
+                "hex": "#2D9EE0",
+            },
+            "title": {
+                "hex": "#FFFFFF",
+            },
+            "subtitle": {
+                "hex": "#FFFFFF",
+            },
+            "tint": {
+                "hex": "#FFFFFF",
+            },
+            "border": {
+                "hex": "#FFFFFF",
+            },
+        },
+    },
+    
+]

@@ -3,14 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D4582428303694371DCA46F /* Pods_Chess_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3F0AEAD36E25F4C761B984 /* Pods_Chess_Timer.framework */; };
-		720408BAFD038E813BA40716 /* Pods_Chess_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1333E7DC2EDF8A9E03514349 /* Pods_Chess_TimerUITests.framework */; };
-		D2EA0D7D268C55BE70F350D9 /* Pods_Chess_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6811FA701351E68BEE36C0B /* Pods_Chess_TimerTests.framework */; };
-		F7141D9920BDE32600A95599 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7141D9820BDE32600A95599 /* WinnerViewController.swift */; };
+		F7206EEB25A4148B0061CEFD /* ScalingCarousel in Frameworks */ = {isa = PBXBuildFile; productRef = F7206EEA25A4148B0061CEFD /* ScalingCarousel */; };
+		F7206EF025A416990061CEFD /* SettingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7206EEF25A416990061CEFD /* SettingsCollectionViewCell.swift */; };
+		F7206F0925A41AC00061CEFD /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7206EFE25A41AC00061CEFD /* nanopb.xcframework */; };
+		F7206F0A25A41AC00061CEFD /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7206EFF25A41AC00061CEFD /* GoogleAppMeasurement.framework */; };
+		F7206F0B25A41AC00061CEFD /* Promises-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F7206F0125A41AC00061CEFD /* Promises-LICENSE */; };
+		F7206F0C25A41AC00061CEFD /* NanoPB-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F7206F0225A41AC00061CEFD /* NanoPB-LICENSE */; };
+		F7206F0D25A41AC00061CEFD /* OpenMeasurement-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F7206F0325A41AC00061CEFD /* OpenMeasurement-LICENSE */; };
+		F7206F0E25A41AC00061CEFD /* GoogleUtilities-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F7206F0425A41AC00061CEFD /* GoogleUtilities-LICENSE */; };
+		F7206F0F25A41AC00061CEFD /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7206F0525A41AC00061CEFD /* PromisesObjC.xcframework */; };
+		F7206F1025A41AC00061CEFD /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7206F0625A41AC00061CEFD /* UserMessagingPlatform.xcframework */; };
+		F7206F1225A41AC00061CEFD /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7206F0825A41AC00061CEFD /* GoogleUtilities.xcframework */; };
+		F7206F1625A41AF00061CEFD /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7206F0725A41AC00061CEFD /* GoogleMobileAds.xcframework */; };
+		F7206F1F25A4AF4A0061CEFD /* Gradients.json in Resources */ = {isa = PBXBuildFile; fileRef = F7206F1E25A4AF4A0061CEFD /* Gradients.json */; };
+		F7206F2425A4AF970061CEFD /* GradientsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7206F2325A4AF970061CEFD /* GradientsManager.swift */; };
 		F7263F9220B0C223007D790B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7263F9120B0C223007D790B /* AppDelegate.swift */; };
 		F7263F9420B0C223007D790B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7263F9320B0C223007D790B /* ViewController.swift */; };
 		F7263F9720B0C223007D790B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7263F9520B0C223007D790B /* Main.storyboard */; };
@@ -18,10 +28,29 @@
 		F7263F9C20B0C225007D790B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7263F9A20B0C225007D790B /* LaunchScreen.storyboard */; };
 		F7263FA720B0C225007D790B /* Chess_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7263FA620B0C225007D790B /* Chess_TimerTests.swift */; };
 		F7263FB220B0C225007D790B /* Chess_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7263FB120B0C225007D790B /* Chess_TimerUITests.swift */; };
-		F7263FC020B0C2D9007D790B /* VarelaRound-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7263FBF20B0C2AD007D790B /* VarelaRound-Regular.ttf */; };
-		F75DC1F120C024A600D01EF0 /* WinnerSoundEffect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F75DC1F020C024A600D01EF0 /* WinnerSoundEffect.mp3 */; };
-		F7A23D6D20B2103F00A109DC /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A23D6C20B2103F00A109DC /* TimerViewController.swift */; };
-		F7A23D6F20B2119600A109DC /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A23D6E20B2119600A109DC /* data.swift */; };
+		F7745F2325A5104D005B7F7D /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7745F2225A5104D005B7F7D /* NSLayoutConstraint.swift */; };
+		F792559225A3C3AE00BBE546 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792559125A3C3AE00BBE546 /* UIColor.swift */; };
+		F79255B925A3C70800BBE546 /* UIColor_Hex_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = F79255B825A3C70800BBE546 /* UIColor_Hex_Swift */; };
+		F79255BE25A3C7A000BBE546 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79255BD25A3C7A000BBE546 /* Game.swift */; };
+		F7BCAF6E259EF1F3000E7346 /* PrefrencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAF6D259EF1F3000E7346 /* PrefrencesViewController.swift */; };
+		F7BCAF73259EF4B2000E7346 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAF72259EF4B2000E7346 /* TitleLabel.swift */; };
+		F7BCAF78259EF4C8000E7346 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAF77259EF4C8000E7346 /* Palette.swift */; };
+		F7BCAF7D259EF4D0000E7346 /* PaletteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAF7C259EF4D0000E7346 /* PaletteManager.swift */; };
+		F7BCAF82259EF4FF000E7346 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAF81259EF4FF000E7346 /* ShadowView.swift */; };
+		F7BCAF8D259EF746000E7346 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAF8C259EF746000E7346 /* Color.swift */; };
+		F7BCAF97259EF7B1000E7346 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAF96259EF7B1000E7346 /* Widget.swift */; };
+		F7BCAFA4259EFA7A000E7346 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAFA3259EFA7A000E7346 /* UIView.swift */; };
+		F7BCAFAC259EFFFF000E7346 /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAFAB259EFFFF000E7346 /* Clock.swift */; };
+		F7BCAFB1259F01FB000E7346 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAFB0259F01FB000E7346 /* TimeInterval.swift */; };
+		F7BCAFB6259F088D000E7346 /* StackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAFB5259F088D000E7346 /* StackButton.swift */; };
+		F7BCAFBB259F0AA0000E7346 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAFBA259F0AA0000E7346 /* BaseViewController.swift */; };
+		F7BCAFC0259F0E64000E7346 /* PaletteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAFBF259F0E64000E7346 /* PaletteCell.swift */; };
+		F7BCAFF7259FBA4E000E7346 /* Palettes.json in Resources */ = {isa = PBXBuildFile; fileRef = F7BCAFF6259FBA4E000E7346 /* Palettes.json */; };
+		F7D34F0425A53CB900D3C5F2 /* ScreenCorners in Frameworks */ = {isa = PBXBuildFile; productRef = F7D34F0325A53CB900D3C5F2 /* ScreenCorners */; };
+		F7EF0B89259EAA390067B5DE /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF0B88259EAA390067B5DE /* UIDevice.swift */; };
+		F7EF0B96259EAAF70067B5DE /* CTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF0B95259EAAF70067B5DE /* CTView.swift */; };
+		F7EF0B9E259EB8630067B5DE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF0B9D259EB8630067B5DE /* SettingsViewController.swift */; };
+		F7EF0BA3259EB8A60067B5DE /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EF0BA2259EB8A60067B5DE /* PaletteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +71,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1333E7DC2EDF8A9E03514349 /* Pods_Chess_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chess_TimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35231FB7F161124C98BF15C0 /* Pods-Chess TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess TimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chess TimerUITests/Pods-Chess TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		39ACFBDE312DEB860DEB352E /* Pods-Chess Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess Timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chess Timer/Pods-Chess Timer.release.xcconfig"; sourceTree = "<group>"; };
-		3C13AF1F559B5F8D4ACCD590 /* Pods-Chess TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess TimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chess TimerTests/Pods-Chess TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5579696D371C3A941C15E0EB /* Pods-Chess TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess TimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chess TimerTests/Pods-Chess TimerTests.release.xcconfig"; sourceTree = "<group>"; };
-		61E42E0A7B325F53684EDD3B /* Pods-Chess Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess Timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chess Timer/Pods-Chess Timer.debug.xcconfig"; sourceTree = "<group>"; };
-		9CA7160ABCD5629370EF8947 /* Pods-Chess TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chess TimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chess TimerUITests/Pods-Chess TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		AF3F0AEAD36E25F4C761B984 /* Pods_Chess_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chess_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6811FA701351E68BEE36C0B /* Pods_Chess_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chess_TimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7141D9820BDE32600A95599 /* WinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
+		F7206EEF25A416990061CEFD /* SettingsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7206EFE25A41AC00061CEFD /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		F7206EFF25A41AC00061CEFD /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		F7206F0125A41AC00061CEFD /* Promises-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Promises-LICENSE"; sourceTree = "<group>"; };
+		F7206F0225A41AC00061CEFD /* NanoPB-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NanoPB-LICENSE"; sourceTree = "<group>"; };
+		F7206F0325A41AC00061CEFD /* OpenMeasurement-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OpenMeasurement-LICENSE"; sourceTree = "<group>"; };
+		F7206F0425A41AC00061CEFD /* GoogleUtilities-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GoogleUtilities-LICENSE"; sourceTree = "<group>"; };
+		F7206F0525A41AC00061CEFD /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		F7206F0625A41AC00061CEFD /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		F7206F0725A41AC00061CEFD /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		F7206F0825A41AC00061CEFD /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		F7206F1E25A4AF4A0061CEFD /* Gradients.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Gradients.json; sourceTree = "<group>"; };
+		F7206F2325A4AF970061CEFD /* GradientsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsManager.swift; sourceTree = "<group>"; };
 		F7263F8E20B0C223007D790B /* Chess Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chess Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7263F9120B0C223007D790B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7263F9320B0C223007D790B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,10 +97,27 @@
 		F7263FAD20B0C225007D790B /* Chess TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chess TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7263FB120B0C225007D790B /* Chess_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess_TimerUITests.swift; sourceTree = "<group>"; };
 		F7263FB320B0C225007D790B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7263FBF20B0C2AD007D790B /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VarelaRound-Regular.ttf"; sourceTree = "<group>"; };
-		F75DC1F020C024A600D01EF0 /* WinnerSoundEffect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WinnerSoundEffect.mp3; sourceTree = "<group>"; };
-		F7A23D6C20B2103F00A109DC /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		F7A23D6E20B2119600A109DC /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		F7745F2225A5104D005B7F7D /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		F792559125A3C3AE00BBE546 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F79255BD25A3C7A000BBE546 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F7BCAF6D259EF1F3000E7346 /* PrefrencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefrencesViewController.swift; sourceTree = "<group>"; };
+		F7BCAF72259EF4B2000E7346 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		F7BCAF77259EF4C8000E7346 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		F7BCAF7C259EF4D0000E7346 /* PaletteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteManager.swift; sourceTree = "<group>"; };
+		F7BCAF81259EF4FF000E7346 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		F7BCAF8C259EF746000E7346 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F7BCAF96259EF7B1000E7346 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		F7BCAFA3259EFA7A000E7346 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F7BCAFAB259EFFFF000E7346 /* Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clock.swift; sourceTree = "<group>"; };
+		F7BCAFB0259F01FB000E7346 /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		F7BCAFB5259F088D000E7346 /* StackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackButton.swift; sourceTree = "<group>"; };
+		F7BCAFBA259F0AA0000E7346 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F7BCAFBF259F0E64000E7346 /* PaletteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteCell.swift; sourceTree = "<group>"; };
+		F7BCAFF6259FBA4E000E7346 /* Palettes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Palettes.json; sourceTree = "<group>"; };
+		F7EF0B88259EAA390067B5DE /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		F7EF0B95259EAAF70067B5DE /* CTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTView.swift; sourceTree = "<group>"; };
+		F7EF0B9D259EB8630067B5DE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F7EF0BA2259EB8A60067B5DE /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +125,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4582428303694371DCA46F /* Pods_Chess_Timer.framework in Frameworks */,
+				F7206F0925A41AC00061CEFD /* nanopb.xcframework in Frameworks */,
+				F7206EEB25A4148B0061CEFD /* ScalingCarousel in Frameworks */,
+				F7206F0A25A41AC00061CEFD /* GoogleAppMeasurement.framework in Frameworks */,
+				F7206F1225A41AC00061CEFD /* GoogleUtilities.xcframework in Frameworks */,
+				F79255B925A3C70800BBE546 /* UIColor_Hex_Swift in Frameworks */,
+				F7206F1025A41AC00061CEFD /* UserMessagingPlatform.xcframework in Frameworks */,
+				F7D34F0425A53CB900D3C5F2 /* ScreenCorners in Frameworks */,
+				F7206F0F25A41AC00061CEFD /* PromisesObjC.xcframework in Frameworks */,
+				F7206F1625A41AF00061CEFD /* GoogleMobileAds.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +141,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2EA0D7D268C55BE70F350D9 /* Pods_Chess_TimerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,34 +148,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				720408BAFD038E813BA40716 /* Pods_Chess_TimerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BCF9051DFA553026E54FFED /* Pods */ = {
+		F7206EFD25A41AC00061CEFD /* GoogleMobileAdsSdkiOS-7.69.0 */ = {
 			isa = PBXGroup;
 			children = (
-				61E42E0A7B325F53684EDD3B /* Pods-Chess Timer.debug.xcconfig */,
-				39ACFBDE312DEB860DEB352E /* Pods-Chess Timer.release.xcconfig */,
-				3C13AF1F559B5F8D4ACCD590 /* Pods-Chess TimerTests.debug.xcconfig */,
-				5579696D371C3A941C15E0EB /* Pods-Chess TimerTests.release.xcconfig */,
-				35231FB7F161124C98BF15C0 /* Pods-Chess TimerUITests.debug.xcconfig */,
-				9CA7160ABCD5629370EF8947 /* Pods-Chess TimerUITests.release.xcconfig */,
+				F7206EFE25A41AC00061CEFD /* nanopb.xcframework */,
+				F7206EFF25A41AC00061CEFD /* GoogleAppMeasurement.framework */,
+				F7206F0025A41AC00061CEFD /* Licenses */,
+				F7206F0525A41AC00061CEFD /* PromisesObjC.xcframework */,
+				F7206F0625A41AC00061CEFD /* UserMessagingPlatform.xcframework */,
+				F7206F0725A41AC00061CEFD /* GoogleMobileAds.xcframework */,
+				F7206F0825A41AC00061CEFD /* GoogleUtilities.xcframework */,
 			);
-			name = Pods;
+			path = "GoogleMobileAdsSdkiOS-7.69.0";
 			sourceTree = "<group>";
 		};
-		C8911580D81714D2F99DDBB2 /* Frameworks */ = {
+		F7206F0025A41AC00061CEFD /* Licenses */ = {
 			isa = PBXGroup;
 			children = (
-				AF3F0AEAD36E25F4C761B984 /* Pods_Chess_Timer.framework */,
-				B6811FA701351E68BEE36C0B /* Pods_Chess_TimerTests.framework */,
-				1333E7DC2EDF8A9E03514349 /* Pods_Chess_TimerUITests.framework */,
+				F7206F0125A41AC00061CEFD /* Promises-LICENSE */,
+				F7206F0225A41AC00061CEFD /* NanoPB-LICENSE */,
+				F7206F0325A41AC00061CEFD /* OpenMeasurement-LICENSE */,
+				F7206F0425A41AC00061CEFD /* GoogleUtilities-LICENSE */,
 			);
-			name = Frameworks;
+			path = Licenses;
 			sourceTree = "<group>";
 		};
 		F7263F8520B0C223007D790B = {
@@ -129,8 +186,6 @@
 				F7263FA520B0C225007D790B /* Chess TimerTests */,
 				F7263FB020B0C225007D790B /* Chess TimerUITests */,
 				F7263F8F20B0C223007D790B /* Products */,
-				3BCF9051DFA553026E54FFED /* Pods */,
-				C8911580D81714D2F99DDBB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,17 +202,16 @@
 		F7263F9020B0C223007D790B /* Chess Timer */ = {
 			isa = PBXGroup;
 			children = (
-				F75DC1F020C024A600D01EF0 /* WinnerSoundEffect.mp3 */,
-				F7263FBF20B0C2AD007D790B /* VarelaRound-Regular.ttf */,
+				F7206EFD25A41AC00061CEFD /* GoogleMobileAdsSdkiOS-7.69.0 */,
+				F7EF0BAA259EBD300067B5DE /* Assets */,
+				F7EF0BA9259EBD260067B5DE /* Classes */,
+				F7EF0BA8259EBCA90067B5DE /* ViewControllers */,
+				F7EF0BA7259EBCA20067B5DE /* Extensions */,
 				F7263F9120B0C223007D790B /* AppDelegate.swift */,
-				F7263F9320B0C223007D790B /* ViewController.swift */,
 				F7263F9520B0C223007D790B /* Main.storyboard */,
 				F7263F9820B0C225007D790B /* Assets.xcassets */,
 				F7263F9A20B0C225007D790B /* LaunchScreen.storyboard */,
 				F7263F9D20B0C225007D790B /* Info.plist */,
-				F7A23D6C20B2103F00A109DC /* TimerViewController.swift */,
-				F7A23D6E20B2119600A109DC /* data.swift */,
-				F7141D9820BDE32600A95599 /* WinnerViewController.swift */,
 			);
 			path = "Chess Timer";
 			sourceTree = "<group>";
@@ -180,6 +234,67 @@
 			path = "Chess TimerUITests";
 			sourceTree = "<group>";
 		};
+		F7BCAF86259EF55A000E7346 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				F7BCAF7C259EF4D0000E7346 /* PaletteManager.swift */,
+				F7BCAF77259EF4C8000E7346 /* Palette.swift */,
+				F7BCAF8C259EF746000E7346 /* Color.swift */,
+				F7BCAF96259EF7B1000E7346 /* Widget.swift */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
+		F7EF0BA7259EBCA20067B5DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F7EF0B88259EAA390067B5DE /* UIDevice.swift */,
+				F7BCAFA3259EFA7A000E7346 /* UIView.swift */,
+				F7BCAFB0259F01FB000E7346 /* TimeInterval.swift */,
+				F792559125A3C3AE00BBE546 /* UIColor.swift */,
+				F7206F2325A4AF970061CEFD /* GradientsManager.swift */,
+				F7745F2225A5104D005B7F7D /* NSLayoutConstraint.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F7EF0BA8259EBCA90067B5DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7263F9320B0C223007D790B /* ViewController.swift */,
+				F7EF0B9D259EB8630067B5DE /* SettingsViewController.swift */,
+				F7EF0BA2259EB8A60067B5DE /* PaletteViewController.swift */,
+				F7BCAF6D259EF1F3000E7346 /* PrefrencesViewController.swift */,
+				F7BCAFBA259F0AA0000E7346 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F7EF0BA9259EBD260067B5DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F7BCAF86259EF55A000E7346 /* Palette */,
+				F7EF0B95259EAAF70067B5DE /* CTView.swift */,
+				F7BCAF72259EF4B2000E7346 /* TitleLabel.swift */,
+				F7BCAF81259EF4FF000E7346 /* ShadowView.swift */,
+				F7BCAFAB259EFFFF000E7346 /* Clock.swift */,
+				F7BCAFB5259F088D000E7346 /* StackButton.swift */,
+				F7BCAFBF259F0E64000E7346 /* PaletteCell.swift */,
+				F79255BD25A3C7A000BBE546 /* Game.swift */,
+				F7206EEF25A416990061CEFD /* SettingsCollectionViewCell.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F7EF0BAA259EBD300067B5DE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F7BCAFF6259FBA4E000E7346 /* Palettes.json */,
+				F7206F1E25A4AF4A0061CEFD /* Gradients.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,18 +302,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7263FB620B0C225007D790B /* Build configuration list for PBXNativeTarget "Chess Timer" */;
 			buildPhases = (
-				8093DD4047CA134BB2BB4DFF /* [CP] Check Pods Manifest.lock */,
 				F7263F8A20B0C223007D790B /* Sources */,
 				F7263F8B20B0C223007D790B /* Frameworks */,
 				F7263F8C20B0C223007D790B /* Resources */,
-				E21DF3D0CC4D4FD9D356C410 /* [CP] Embed Pods Frameworks */,
-				012EA42CEE76FF48ABC12FC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Chess Timer";
+			packageProductDependencies = (
+				F79255B825A3C70800BBE546 /* UIColor_Hex_Swift */,
+				F7206EEA25A4148B0061CEFD /* ScalingCarousel */,
+				F7D34F0325A53CB900D3C5F2 /* ScreenCorners */,
+			);
 			productName = "Chess Timer";
 			productReference = F7263F8E20B0C223007D790B /* Chess Timer.app */;
 			productType = "com.apple.product-type.application";
@@ -207,12 +324,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7263FB920B0C225007D790B /* Build configuration list for PBXNativeTarget "Chess TimerTests" */;
 			buildPhases = (
-				58F196D3BCA8475B6A8A30D2 /* [CP] Check Pods Manifest.lock */,
 				F7263F9E20B0C225007D790B /* Sources */,
 				F7263F9F20B0C225007D790B /* Frameworks */,
 				F7263FA020B0C225007D790B /* Resources */,
-				6DC3ACA02920D4E023D5CD18 /* [CP] Embed Pods Frameworks */,
-				054C7FC7CF75F3C9D09764B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,12 +342,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7263FBC20B0C225007D790B /* Build configuration list for PBXNativeTarget "Chess TimerUITests" */;
 			buildPhases = (
-				2F2824495DB532111870125C /* [CP] Check Pods Manifest.lock */,
 				F7263FA920B0C225007D790B /* Sources */,
 				F7263FAA20B0C225007D790B /* Frameworks */,
 				F7263FAB20B0C225007D790B /* Resources */,
-				EA22348BC5261D5B337F4A63 /* [CP] Embed Pods Frameworks */,
-				548771D78BA070F0C28757C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,18 +363,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Ozan Mirza";
 				TargetAttributes = {
 					F7263F8D20B0C223007D790B = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1220;
 					};
 					F7263FA120B0C225007D790B = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1220;
 						TestTargetID = F7263F8D20B0C223007D790B;
 					};
 					F7263FAC20B0C225007D790B = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1220;
 						TestTargetID = F7263F8D20B0C223007D790B;
 					};
 				};
@@ -277,6 +391,11 @@
 				Base,
 			);
 			mainGroup = F7263F8520B0C223007D790B;
+			packageReferences = (
+				F792556625A3146300BBE546 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */,
+				F7206EE925A4148B0061CEFD /* XCRemoteSwiftPackageReference "ScalingCarousel" */,
+				F7D34F0225A53CB900D3C5F2 /* XCRemoteSwiftPackageReference "ScreenCorners" */,
+			);
 			productRefGroup = F7263F8F20B0C223007D790B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -293,11 +412,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7206F1F25A4AF4A0061CEFD /* Gradients.json in Resources */,
+				F7206F0E25A41AC00061CEFD /* GoogleUtilities-LICENSE in Resources */,
 				F7263F9C20B0C225007D790B /* LaunchScreen.storyboard in Resources */,
-				F7263FC020B0C2D9007D790B /* VarelaRound-Regular.ttf in Resources */,
-				F75DC1F120C024A600D01EF0 /* WinnerSoundEffect.mp3 in Resources */,
 				F7263F9920B0C225007D790B /* Assets.xcassets in Resources */,
+				F7206F0B25A41AC00061CEFD /* Promises-LICENSE in Resources */,
 				F7263F9720B0C223007D790B /* Main.storyboard in Resources */,
+				F7206F0C25A41AC00061CEFD /* NanoPB-LICENSE in Resources */,
+				F7206F0D25A41AC00061CEFD /* OpenMeasurement-LICENSE in Resources */,
+				F7BCAFF7259FBA4E000E7346 /* Palettes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,170 +440,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		012EA42CEE76FF48ABC12FC8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chess Timer/Pods-Chess Timer-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		054C7FC7CF75F3C9D09764B3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chess TimerTests/Pods-Chess TimerTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F2824495DB532111870125C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Chess TimerUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		548771D78BA070F0C28757C1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chess TimerUITests/Pods-Chess TimerUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		58F196D3BCA8475B6A8A30D2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Chess TimerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6DC3ACA02920D4E023D5CD18 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chess TimerTests/Pods-Chess TimerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8093DD4047CA134BB2BB4DFF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Chess Timer-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E21DF3D0CC4D4FD9D356C410 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Chess Timer/Pods-Chess Timer-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
-				"${BUILT_PRODUCTS_DIR}/GhostTypewriter/GhostTypewriter.framework",
-				"${BUILT_PRODUCTS_DIR}/SAConfettiView/SAConfettiView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GhostTypewriter.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAConfettiView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chess Timer/Pods-Chess Timer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA22348BC5261D5B337F4A63 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chess TimerUITests/Pods-Chess TimerUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		F7263F8A20B0C223007D790B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7BCAFA4259EFA7A000E7346 /* UIView.swift in Sources */,
 				F7263F9420B0C223007D790B /* ViewController.swift in Sources */,
-				F7A23D6D20B2103F00A109DC /* TimerViewController.swift in Sources */,
+				F7BCAFAC259EFFFF000E7346 /* Clock.swift in Sources */,
+				F7BCAFB1259F01FB000E7346 /* TimeInterval.swift in Sources */,
+				F7BCAFBB259F0AA0000E7346 /* BaseViewController.swift in Sources */,
+				F7BCAF97259EF7B1000E7346 /* Widget.swift in Sources */,
+				F7BCAF82259EF4FF000E7346 /* ShadowView.swift in Sources */,
+				F7745F2325A5104D005B7F7D /* NSLayoutConstraint.swift in Sources */,
+				F7BCAF6E259EF1F3000E7346 /* PrefrencesViewController.swift in Sources */,
+				F7BCAF8D259EF746000E7346 /* Color.swift in Sources */,
+				F792559225A3C3AE00BBE546 /* UIColor.swift in Sources */,
+				F7EF0B96259EAAF70067B5DE /* CTView.swift in Sources */,
+				F7BCAFB6259F088D000E7346 /* StackButton.swift in Sources */,
+				F7BCAF7D259EF4D0000E7346 /* PaletteManager.swift in Sources */,
+				F7BCAF78259EF4C8000E7346 /* Palette.swift in Sources */,
+				F7EF0B89259EAA390067B5DE /* UIDevice.swift in Sources */,
+				F7EF0B9E259EB8630067B5DE /* SettingsViewController.swift in Sources */,
+				F7206F2425A4AF970061CEFD /* GradientsManager.swift in Sources */,
+				F7206EF025A416990061CEFD /* SettingsCollectionViewCell.swift in Sources */,
+				F79255BE25A3C7A000BBE546 /* Game.swift in Sources */,
+				F7BCAF73259EF4B2000E7346 /* TitleLabel.swift in Sources */,
+				F7EF0BA3259EB8A60067B5DE /* PaletteViewController.swift in Sources */,
 				F7263F9220B0C223007D790B /* AppDelegate.swift in Sources */,
-				F7A23D6F20B2119600A109DC /* data.swift in Sources */,
-				F7141D9920BDE32600A95599 /* WinnerViewController.swift in Sources */,
+				F7BCAFC0259F0E64000E7346 /* PaletteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,6 +549,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -586,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -621,6 +610,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -640,7 +630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -651,47 +641,56 @@
 		};
 		F7263FB720B0C225007D790B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61E42E0A7B325F53684EDD3B /* Pods-Chess Timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = QXNMG5R4EQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chess\\ Timer/GoogleMobileAdsSdkiOS-7.69.0",
+				);
 				INFOPLIST_FILE = "Chess Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Chess-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F7263FB820B0C225007D790B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39ACFBDE312DEB860DEB352E /* Pods-Chess Timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = QXNMG5R4EQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Chess\\ Timer/GoogleMobileAdsSdkiOS-7.69.0",
+				);
 				INFOPLIST_FILE = "Chess Timer/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 3.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Chess-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		F7263FBA20B0C225007D790B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C13AF1F559B5F8D4ACCD590 /* Pods-Chess TimerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -705,7 +704,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Chess-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess Timer.app/Chess Timer";
 			};
@@ -713,7 +712,6 @@
 		};
 		F7263FBB20B0C225007D790B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5579696D371C3A941C15E0EB /* Pods-Chess TimerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -727,7 +725,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Chess-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chess Timer.app/Chess Timer";
 			};
@@ -735,7 +733,6 @@
 		};
 		F7263FBD20B0C225007D790B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35231FB7F161124C98BF15C0 /* Pods-Chess TimerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -748,7 +745,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Chess-TimerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Chess Timer";
 			};
@@ -756,7 +753,6 @@
 		};
 		F7263FBE20B0C225007D790B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CA7160ABCD5629370EF8947 /* Pods-Chess TimerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -769,7 +765,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.burcumirza.Chess-TimerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Chess Timer";
 			};
@@ -815,6 +811,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F7206EE925A4148B0061CEFD /* XCRemoteSwiftPackageReference "ScalingCarousel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/superpeteblaze/ScalingCarousel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+		F792556625A3146300BBE546 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yeahdongcn/UIColor-Hex-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		F7D34F0225A53CB900D3C5F2 /* XCRemoteSwiftPackageReference "ScreenCorners" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kylebshr/ScreenCorners";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F7206EEA25A4148B0061CEFD /* ScalingCarousel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7206EE925A4148B0061CEFD /* XCRemoteSwiftPackageReference "ScalingCarousel" */;
+			productName = ScalingCarousel;
+		};
+		F79255B825A3C70800BBE546 /* UIColor_Hex_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F792556625A3146300BBE546 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColor_Hex_Swift;
+		};
+		F7D34F0325A53CB900D3C5F2 /* ScreenCorners */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7D34F0225A53CB900D3C5F2 /* XCRemoteSwiftPackageReference "ScreenCorners" */;
+			productName = ScreenCorners;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F7263F8620B0C223007D790B /* Project object */;
 }
